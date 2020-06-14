@@ -1,6 +1,7 @@
 # TODO List
 Tasks to finish on this repo:
 
- * [ ] Clean from useless icons and features
+ * [ ] Change favicon
+ * [ ] Clean
  * [ ] Add thank note (?)
  * [ ] ...
