@@ -1,3 +1,4 @@
+Script for MySQL, that explain basics of One-To-One and Many-To-Many relationship with practical examples:
 ```mysql-psql
 CREATE DATABASE relationship;
 
