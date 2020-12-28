@@ -1,7 +1,7 @@
 # Site settings
-title: Irina Kamalova
+title: IrenKamalova
 description: >-
-  This blog is attempt to produce some cool information from this big world that I've collected, structured and filtered through my little inner world. I hope that you will definitely enjoy it!
+  ToBeDone
 lang: en-US
 repo: https://github.com/piharpi/mahendrata.now.sh
 mode: dark # default theme "dark" | "light"
@@ -10,7 +10,8 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Irina Kamalova
   bio: >-
-    This blog is attempt to produce some cool information from this big world that I've collected, structured and filtered through my little inner world. I hope that you will definitely enjoy it!
+    This blog is attempt to produce some cool information from this big world that I've collected, structured and filtered through my little inner world.
+    I hope you enjoy it!
   username: username
   email: your-email@email.com
   avatar: /assets/img/avatar.jpg

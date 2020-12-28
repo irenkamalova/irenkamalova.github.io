@@ -3,12 +3,21 @@ layout: default
 home: true
 ---
 
-<h4 class="posts-item-note">Recent Posts</h4>
-{% for post in site.posts %}
-<article class="post-item">
-  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
-    <a href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h4>
-</article>
-{% endfor %}
+<div class="author">
+    <img
+            class="author-avatar"
+            src="{{ site.author.avatar }}"
+            alt="{{ site.author.username }}"
+    />
+    <h2 class="author-name">{{ site.author.name }}</h2>
+    <p class="author-bio">{{ site.author.bio }}</p>
+    <br>
+    <a href="/articles/">Articles</a>
+    <br>
+    <a href="/articles/">Notes</a>
+    <br>
+    <a href="/articles/">Ideas</a>
+
+
+</div>
+

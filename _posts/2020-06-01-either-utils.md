@@ -1,3 +1,6 @@
+---
+categories: techNotes
+---
 # Either Utils
 
 When you working with Scala Either you really wish some things to be there by some utils lib (espesially, when you can't swith to next version of Scala because of some reasons)

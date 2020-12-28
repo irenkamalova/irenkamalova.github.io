@@ -1,3 +1,6 @@
+---
+categories: techNotes
+---
 Adding logger on top of main functionality
 
 I inspired that Scala with it complex concepts of traits let you play with extending your services

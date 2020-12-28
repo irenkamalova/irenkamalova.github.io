@@ -1,3 +1,6 @@
+---
+categories: techNotes
+---
 # TODO List
 Tasks to finish on this repo:
 

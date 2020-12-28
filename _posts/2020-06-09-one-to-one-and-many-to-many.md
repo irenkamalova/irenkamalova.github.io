@@ -1,5 +1,9 @@
+---
+categories: techNotes
+---
 Script for MySQL, that explain basics of One-To-One and Many-To-Many relationship with practical examples:
-```mysql-psql
+
+```mysql
 CREATE DATABASE relationship;
 
 USE relationship;
@@ -134,12 +138,11 @@ INSERT INTO items_orders (id, item_id, order_id) VALUES
 (5, 3, 5);
 
 SELECT * FROM items_orders;
--- now you finished to implement MANY-TO-MANY relationship!
-
--- one more thing - you can not only drop table, you also can DROP full database!!!
--- (it's very dangerous as you will lose all data, all schemas, everything! 0_0 )
--- DROP DATABASE relationship;
-
--- I also want to mention, that you can you INT instead of INTEGER and you don't need specify NOT NULL if column will be PRIMARY KEY
-
 ```
+
+Now you finished the implementation of MANY-TO-MANY relationship!
+
+One more thing - to drop the table, you need to drop whole database!
+Remember, how dangerous it's: you'll lose all data, all schemas, everything!
+
+I also want to mention, that you can you INT instead of INTEGER and you don't need specify NOT NULL if column will be PRIMARY KEY
