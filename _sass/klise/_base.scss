@@ -127,6 +127,7 @@ ul {
     text-align: -webkit-match-parent;
   }
   li::before {
+    content: "\9733";
     display: inline-block;
     width: 1em;
     position: relative;
