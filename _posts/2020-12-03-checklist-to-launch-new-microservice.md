@@ -54,13 +54,7 @@ In this case, the application is launched from "DockerContainer". Your service h
 -   Service uses test framework docker container.
     
 
-This is probably the most comfortable method for development. Integration tests can be easily maintained in a development (DEV)  environment.
-
-However, you need:
-
-1.  Possibility for your CI/CD environment to download your test’s docker images.
-    
-2.  Test containers shouldn’t interfere with the existing CI/CD environment.
+This is probably the most comfortable method for development. Integration tests can be easily maintained in a development (DEV) environment. However, don’t forget that you have possibility for your CI/CD environment to download your test’s docker images. Also, test containers shouldn’t interfere with the existing CI/CD environment.
   
 **5. Link your repository to the CI/CD environment**  
   
