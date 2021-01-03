@@ -120,6 +120,7 @@ figcaption {
 
 // List
 // content: "\03BB"; - greek symbol lambda
+// content: "֍";
 ul {
   list-style: none;
   li {
@@ -127,7 +128,7 @@ ul {
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\9733";
+    content: "★";
     display: inline-block;
     width: 1em;
     position: relative;
