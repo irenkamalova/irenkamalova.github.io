@@ -1,4 +1,7 @@
-# Scala Candies
+---  
+categories: article  
+---  
+### Scala Candies
 
 Several things compare in Scala and Java
 

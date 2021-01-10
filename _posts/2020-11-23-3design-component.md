@@ -1,3 +1,6 @@
+---  
+categories: article  
+---  
 ### Only 3 design components can solve your issue!
 
 Didn’t you think about how many challenges in software engineering could be solved by using only **three design components** in your system?

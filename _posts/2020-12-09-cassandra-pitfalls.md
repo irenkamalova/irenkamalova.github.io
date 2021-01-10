@@ -1,3 +1,6 @@
+---  
+categories: article  
+---  
 ### Prevent yourself from the pitfalls of using Cassandra!
 
 ![](https://cdn-images-1.medium.com/max/1000/0*CqYqzad6veVCRZCc)
