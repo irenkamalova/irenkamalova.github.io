@@ -85,5 +85,3 @@ Cassandra is a column-oriented database. This concept lets you add a new column 
 **Every Cassandra node like a cup of coffee.** [**Photo by Nathan Dumlao on Unsplash**](https://unsplash.com/photos/oMwEHgCrHJA "https://unsplash.com/photos/oMwEHgCrHJA")
 
 Cassandra is powerful! I recommend considering using it in your project if you have suitable business cases! But be ready to analyze all possible business scenarios and predict all possible changes in your data model so you can apply them. Take care of the cluster and be kind to your Cassandra nodes!
-
-Don’t spare on claps!
