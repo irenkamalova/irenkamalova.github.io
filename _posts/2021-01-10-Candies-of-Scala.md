@@ -154,7 +154,7 @@ class InMemoryPersonRepository extends PersonRepository {
 }
 ```
 
-4. Pattern matching
+### Pattern matching
 
 Code on Java:
 
@@ -186,7 +186,7 @@ def save(operation: Operation): Unit = {
 }
 ```
 
-### for-yield 
+### for <- yield 
 
 When you need to create an object only if all options are present, you can use "for yield" statement:
 
