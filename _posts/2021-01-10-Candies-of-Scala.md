@@ -1,16 +1,14 @@
 ---  
 categories: article  
 ---  
-### Scala Candies
-
 Several things compare in Scala and Java
 
-Case: you creating table Person with name and age in database. Let's look at code!
+Case: you're creating table Person with a name and age in a database. Let's look at code!
 
 1. Case class
 
 Java code:
-```Java
+```java
 public class Person {  
   
  private final String name;  
@@ -59,13 +57,13 @@ public class Person {
 ```
 
 Scala code
-```Scala
+```scala
 case class Person(name: String, age: Int)
 ```
 
 Example of usage:
 
-```Scala
+```scala
 val p = Person("Peter", 5)  
 val peter = Person("Peter", 5)  
 val dom = Person("Dominique", 3)  
@@ -79,7 +77,7 @@ Methods get/equals/hashCode/toString - all of them already implemented for you!
 
 Suppose, we want to restrict out Person by age.
 Java code:
-```Java
+```java
 public class Person {  
   
  private final String name;  
@@ -102,7 +100,7 @@ public class Person {
 }
 ```
 In Scala for this goal you can use an Object:
-```Scala
+```scala
 object Person {  
   private val AGE_LOW_BOUNDER = 0  
   private val AGE_HIGH_BOUNDER = 200  
@@ -115,14 +113,14 @@ object Person {
 }
 ```
 Now, you even don't need to say the word "apply" implicitly to invoke this method:
-```Scala
+```scala
 Person("Peter", 18)  
 Person("Peter", -1) // throw an exception 
 Person("Peter", 201) // throw an exception
 ```
 
 3. Traits - you can provide behavior there!
-```Scala
+```scala
 trait PersonRepository {  
   
   def logger: Logger  
@@ -137,7 +135,8 @@ trait PersonRepository {
 }
 ```
 Implementation:
-```Scala
+
+```scala
 class InMemoryPersonRepository extends PersonRepository {  
   val list = ListBuffer[Person]()  
   
@@ -156,7 +155,7 @@ class InMemoryPersonRepository extends PersonRepository {
 
 Code on Java:
 
-```Java
+```java
 public void handle(Operation operation) {  
     switch (operation) {  
         case ADD:  
@@ -173,7 +172,7 @@ public void handle(Operation operation) {
 Error prone, and it's easy to forget about "break" statement!
 
 Code in Scala:
-```Scala
+```scala
 def save(operation: Operation): Unit = {  
   operation match {  
     case ADD || INSERT || UPDATE =>  
@@ -189,7 +188,7 @@ def save(operation: Operation): Unit = {
 When you need to create an object only if all options are present, you can use "for yield" statement:
 
 
-```Scala
+```scala
 def person(optName: Option[String],  
   optAge: Option[Int]) =  
   for {  
@@ -198,7 +197,7 @@ def person(optName: Option[String],
   } yield Person(name, age)
 ```
 Usage:
-```Scala
+```scala
 val optName: Option[String] = Some("Peter")  
 val optAge: Option[Int] = Some(18)  
 val optNone = None  
@@ -209,7 +208,7 @@ person(optNone, optAge)  // None
 ```
 
 6. Evaluation with Either - the way to wrap up Exception or another result
-```Scala
+```scala
 def div(a: Int, b: Int): Int = {  
   if (b == 0) throw new ArithmeticException("Division by Zero")  
   a / b  
@@ -232,7 +231,7 @@ val result = evaluate(a, b).getOrElse(0)
 
 7. String interpolation
 Java code:
-```Java
+```java
 public String toString() {  
     return "example.person.Person{" +  
         "name='" + name + '\'' +  
@@ -241,7 +240,7 @@ public String toString() {
 }
 ```
 you can inject the value of variable intro string with `$` symbol: 
-```Scala
+```scala
 return "example.person.Person{name=$name, age=$age}"
 ```
 
