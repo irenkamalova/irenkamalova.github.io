@@ -5,7 +5,7 @@ Several things compare in Scala and Java
 
 Case: you're creating table Person with a name and age in a database. Let's look at code!
 
-1. Case class
+### Case class
 
 Java code:
 ```java
@@ -73,7 +73,7 @@ p == peter // true
 
 Methods get/equals/hashCode/toString - all of them already implemented for you!
 
-2. Objects
+### Objects
 
 Suppose, we want to restrict out Person by age.
 Java code:
@@ -119,7 +119,10 @@ Person("Peter", -1) // throw an exception
 Person("Peter", 201) // throw an exception
 ```
 
-3. Traits - you can provide behavior there!
+### Traits
+ 
+You can provide behavior there!
+
 ```scala
 trait PersonRepository {  
   
@@ -183,10 +186,9 @@ def save(operation: Operation): Unit = {
 }
 ```
 
-5. "For yield" with several options
+### for-yield 
 
 When you need to create an object only if all options are present, you can use "for yield" statement:
-
 
 ```scala
 def person(optName: Option[String],  
@@ -207,7 +209,9 @@ person(optName, optNone)  // None
 person(optNone, optAge)  // None
 ```
 
-6. Evaluation with Either - the way to wrap up Exception or another result
+### Either
+
+Evaluation with Either - the way to wrap up Exception or another result
 ```scala
 def div(a: Int, b: Int): Int = {  
   if (b == 0) throw new ArithmeticException("Division by Zero")  
@@ -229,7 +233,7 @@ def evaluate(a: Int, b: Int): Either[Exception, Int] = {
 val result = evaluate(a, b).getOrElse(0)
 ```
 
-7. String interpolation
+### String interpolation
 Java code:
 ```java
 public String toString() {  
