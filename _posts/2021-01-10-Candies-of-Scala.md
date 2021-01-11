@@ -249,4 +249,5 @@ return "example.person.Person{name=$name, age=$age}"
 ```
 
 
-All examples could be find here: https://github.com/irenkamalova/comparison-scala-vs-java
+All examples could be find [here](https://github.com/irenkamalova/comparison-scala-vs-java)
+Thank you!
