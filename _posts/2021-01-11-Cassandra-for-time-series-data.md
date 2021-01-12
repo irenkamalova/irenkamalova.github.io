@@ -1,3 +1,6 @@
+---
+categories: article
+---
 As the volume of everyday data is growing,
  it is critical to find a database suitable for storing it.
   When we want to store a large amount of records about real-time transactions or events we need to consider solutions for time-series data. I have done some research and found out that there are some solutions designed to store time-series data: InfluxDB, TimescaleDB, Graphite… Well, here I would like to introduce Cassandra for time-series data.
@@ -14,7 +17,7 @@ Let’s look at the key factors of Cassandra features:
 
 ### High insert volume
 
-Under the hood, Cassandra is using a log-structured merge-tree. This data structure allows you to access files with a high volume of inserts, such as transactional log data. Cassandra doesn’t allow you to read data before it is written to the disk. The storage engine groups inserts and updates in memory. Once written to disk, the data is immutable and is never overwritten. 
+Under the hood, Cassandra is using a log-structured merge-tree. This data structure allows you to access files with a high volume of inserts, such as transactional log data. Cassandra doesn’t allow you to read data before it is written to the disk. The storage engine groups inserts and updates in memory. Once written to disk, the data is immutable and is never overwritten.
 
 
 
@@ -33,10 +36,11 @@ The most reasonable argument against using Cassandra for time-series data - it d
 
 CQL language & Open Source
 
-And the last thing is the comfort of using Cassandra. It comes to you with CQL language - the language very similar to SQL language. If you’re good at SQL then you already know how to interact with Cassandra by queries. And both Cassandra and Spark are open source solutions, so you can pick it up for your enterprise project and give it to your client without requiring them to pay for the license! 
+And the last thing is the comfort of using Cassandra. It comes to you with CQL language - the language very similar to SQL language. If you’re good at SQL then you already know how to interact with Cassandra by queries. And both Cassandra and Spark are open source solutions, so you can pick it up for your enterprise project and give it to your client without requiring them to pay for the license!
 
 Sounds good, doesn’t it?
 
 ### Conclusion
 
-I hope you’ll find your way to use this favorite database. Be aware of the pitfalls that I described here. Thank you for reading my note and don’t spare claps!
+I hope you’ll find your way to use this favorite database. Be aware of the pitfalls that I described [here](https://iren-kamalova.medium.com/prevent-yourself-from-the-pitfalls-of-using-cassandra-cbf03c84f22c).
+If you would like to see quick example to work with Cassandra, you can look at [this one](https://github.com/irenkamalova/spring-boot-cassandra).Thank you for reading my note and don’t spare claps!
