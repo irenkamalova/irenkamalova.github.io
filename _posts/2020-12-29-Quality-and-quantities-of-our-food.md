@@ -46,7 +46,7 @@ I don't think it's a signal to stop eating meat at all. Meat helped to develop o
       In my opinion, the next step for people are growing meat in test-tubes. With all vitamins and
        minerals, proteins, complex fats, and amino acids we should obtain from meat. I want to point over here that it is necessary to obtain enough useful substances from food. For example, I don't eat enough red meat so I can't obtain enough iron to support a good level of hemoglobin. That's why I need to bring it as a supplement to my food.
 
-####What's wrong with food supplements?
+#### What's wrong with food supplements?
 
 I see two problems here:
 1) We don't have enough information about which supplements we need and which we don't need
@@ -56,7 +56,9 @@ I see two problems here:
 I think that each person should start tracking nutrients as much as possible and food producers
  should put the information about nutrients as much as possible on labels and in centralized storage. The information should be easy to find by the bar code. Chronometer application already has done a lot of steps in this direction! https://cronometer.com/ 
 
-Here is the step of digital technologies! Here are a lot of things that should be done: provide a big database for storing information about nutrition, help to put it in the one place for the person. A good example of such a place is Google or Apple account.
+#### Here is the step of digital technologies!
+ Here are a lot of things that should be done: provide
+ a big database for storing information about nutrition, help to put it in the one place for the person. A good example of such a place is Google or Apple account.
 
 As I see it in the digital future: smart applications and accounts help you to track all
  nutritions you're consuming. It comes with information about the food you bought in a store. Your every
