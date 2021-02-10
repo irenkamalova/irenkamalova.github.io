@@ -19,7 +19,7 @@ But... **did we solve all problems** with our food? Obviously, not. People found
 - meat consumption 
 - food supplements
 
-####What's wrong with sugar?
+#### What's wrong with sugar?
 
 Sugar is our next evil after drugs and nicotine. It’s no secret to anybody that sugar increases the
  level of glucose in the blood. As a result, it makes the brain become addicted to these high
@@ -29,7 +29,7 @@ The other thing about sugar: not all calories the same, and calories from sugar 
  immediately. If you can't spend all this energy it goes to fats! It's always better to eat meat
   instead of sugar!
 
-####What's wrong with meat? 
+#### What's wrong with meat? 
 
 Meat really shouldn't hurt balance in the human organism as sugar, sweets, salt, and other
  products with a high level of the [glycemic index](https://www.nhs.uk/common-health-questions/food-and-diet/what-is-the-glycaemic-index-gi/).
@@ -49,8 +49,8 @@ I don't think it's a signal to stop eating meat at all. Meat helped to develop o
 #### What's wrong with food supplements?
 
 I see two problems here:
-1) We don't have enough information about which supplements we need and which we don't need
-2) We don't have a good mechanism for everyday measurements of how our diet affects our body - do
+- We don't have enough information about which supplements we need and which we don't need
+- We don't have a good mechanism for everyday measurements of how our diet affects our body - do
  we obtain enough minerals and vitamins or do we need to exceed something?
 
 I think that each person should start tracking nutrients as much as possible and food producers
