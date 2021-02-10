@@ -14,7 +14,8 @@ I think that global industry achieved the top of abundance to offer the market f
  place on our planet. ANY PLACE! We can buy macadamia from Hawaii and lychee from Thailand while
   being in the UK.
 
-But... **did we solve all problems** with our food? Obviously, not. People found a way to feed the enormous amount of the population. Almost every person in rich cities can consume 1.500-2.000 kcal per day. The problem of exceeding weight came with that new "consumption as lifestyle"! I see for now two problems in high light before mankind:
+But... **did we solve all problems with our food?** Obviously, not. People found a way to feed the
+ enormous amount of the population. Almost every person in rich cities can consume 1.500-2.000 kcal per day. The problem of exceeding weight came with that new "consumption as lifestyle"! I see for now two problems in high light before mankind:
 - sugar consumption
 - meat consumption 
 - food supplements
